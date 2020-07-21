@@ -1,7 +1,0 @@
-<h1>Тестовые запросы</h1>
-
-1. curl -X POST http://localhost:3000/api/register --header "Content-Type: application/json" -d "{\"first_name\": \"vlad\", \"last_name\": \"kud\", \"email\": \"bal.square@yandex.ru\", \"password\": \"thisistheend\"}"
-2. curl -X POST http://localhost:3000/api/login --header "Content-Type: application/json" -d "{\"email\": \"bal.square@yandex.ru\", \"password\": \"thisistheend\"}"
-3. curl -X POST http://localhost:3000/api/login --header "Content-Type: application/json" -d "{\"email\": \"bal.square@yandex.ru\", \"password\": \"thisistheend\"}" --cookie-jar ./cookieFile
-4. curl -X POST http://localhost:3000/api/createOrder --header "Content-Type: application/json" -d "{\"itemId\":4, \"transaction\": \"data\"}" --cookie ./cookieFile
-5. curl -X GET http://localhost:3000/api/getOrders --header "Content-Type: application/json" --cookie ./cookieFile
